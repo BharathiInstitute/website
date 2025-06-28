@@ -7,7 +7,7 @@ void main() {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
-  @override
+  @override//push
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
@@ -25,6 +25,8 @@ class MainApp extends StatelessWidget {
                   color: Colors.blue,
                 ),
               ),
+              SizedBox(height: 20), // Add spacing before the new text
+              Text('This is a new text!'), // New text added here
             ],
           ),
         ),
